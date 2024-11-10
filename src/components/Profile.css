@@ -1,0 +1,33 @@
+/* Profile.css */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .profile-card {
+    background-color: #1a1a1a;
+    padding: 4rem; /* Same increased padding */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem; /* Same increased font size */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Ensure the text inside the card is also larger */
+    margin-bottom: 1rem;
+  }
+  

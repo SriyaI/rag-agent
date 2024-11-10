@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+  
+.login-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #1a1a1a;
+    padding: 4rem; /* Increase padding */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem; /* Increase font size */
+}
+
+.google-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem 1.5rem; /* Increase button padding */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.google-signin:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.google-signin svg {
+    margin-right: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form takes up full width */
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    width: 100%; /* Ensure input groups take up full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1.2rem; /* Increase label font size */
+}
+
+input {
+    padding: 1rem; /* Increase input padding */
+    font-size: 1rem; /* Increase input font size */
+    border: none;
+    border-radius: 5px;
+    width: 100%; /* Ensure input takes up full width */
+}
+
+button[type="submit"] {
+    padding: 1rem 1.5rem; /* Increase button padding */
+    font-size: 1rem; /* Increase button font size */
+    border: none;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #1ed760;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.register-link a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
